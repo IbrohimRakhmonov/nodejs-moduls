@@ -4,7 +4,7 @@ const server = http.createServer((req, res) => {
 
     console.log(req.url);
 
-    res.write('<h1>Salam Alaykum</h1>')
+    res.write('<h1>Salam Alaykum 21</h1>')
     res.end();
 })
 
